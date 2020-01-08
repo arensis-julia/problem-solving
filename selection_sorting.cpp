@@ -28,7 +28,7 @@ int main() {
     }
     else {
         for(int i=0; i<n; i++) {
-            scanf("%d", tmp);
+            scanf("%d", &tmp);
             v.push_back(tmp);
         }
     }
