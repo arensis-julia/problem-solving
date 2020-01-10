@@ -47,4 +47,6 @@ int main() {
             printf("%d ", stack[i]);
         printf("\n\n");
     }
+
+    return 0;
 }

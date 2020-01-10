@@ -47,4 +47,6 @@ int main() {
             printf("%d ", queue[i]);
         printf("\n\n");
     }
+
+    return 0;
 }
