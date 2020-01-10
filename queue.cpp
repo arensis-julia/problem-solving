@@ -22,7 +22,7 @@ int main() {
         
         // ENQUEUE
         else if(option == 1) {
-            printf("Type number to push: ");
+            printf("Type number to enqueue: ");
             scanf("%d", &data);
             queue.push_back(data);
         }
@@ -33,7 +33,7 @@ int main() {
                 printf("ERROR: queue is empty!\n\n");
                 continue;
             }
-            printf("Popped data: %d\n", queue.front());
+            printf("Dequeued data: %d\n", queue.front());
             queue.erase(queue.begin());
         }
 
