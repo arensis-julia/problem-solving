@@ -65,7 +65,7 @@ int main() {
         }
     }
     else {
-        for(int i=0; i<v; i++) {
+        for(int i=0; i<e; i++) {
             scanf("%d%d", &a, &b);
             list[a].push_back(b);
             list[b].push_back(a);
